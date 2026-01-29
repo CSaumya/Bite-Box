@@ -18,6 +18,7 @@ const Navbar = () => {
         autoComplete='off'
         onChange={(e) => dispatch (setSearch(e.target.value))}
         className='p-3 border border-amber-400 rounded-b-4xl outline-0 w-full lg:w-[25vw] ' />
+        
       </div>
     </nav>
   )
